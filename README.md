@@ -24,9 +24,9 @@ ssh -l appuser -A -J appuser@84.201.157.235 10.130.0.17
 подключение по hostname путем настройки .ssh/config ProxyCommand
 ```
 Host someinternalhost
-     HostName <someinternalhost_IP>
-     User <appuser>
-     ProxyCommand ssh -W %h:%p <appuser>@<bastion_IP>
+     HostName 10.130.0.17
+     User appuser
+     ProxyCommand ssh -W %h:%p appuser@84.201.157.235     
 ```
 
 
