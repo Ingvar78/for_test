@@ -8,7 +8,7 @@ someinternalhost_IP=10.130.0.21
 ```
 
 <h2> 5.1 Самостоятельное задание </h2>
-*способ подключение к `someinternalhost` одной командой
+способ подключение к `someinternalhost` одной командой
 
 опции ssh: -A пробрасывает авторизацию на удалённый сервер. -J - Jumphost, -l - login_name, -i - identity_file
 
@@ -21,7 +21,7 @@ ssh -i ~/.ssh/appuser -A -J appuser@<bastion_IP> appuser@<someinternalhost_IP>
 **OR**
 ssh -l appuser -A -J appuser@<bastion_IP> <someinternalhost_IP>
 ```
-*подключение по hostname путем настройки .ssh/config ProxyCommand
+подключение по hostname путем настройки .ssh/config ProxyCommand
 ```
 Host someinternalhost
      HostName 10.130.0.21
@@ -30,8 +30,9 @@ Host someinternalhost
 ```
 
 <h2> 5.2 Создаем VPN-сервер для серверов Yandex.Cloud </h2>
-```
+
 На хосте **bastion** установлен и настроен VPN-сервер Pritunl. 
+```
 Для подключения по vpn через GUI необходимо скачать файл конфигурации пользователя - *cloud-bastion.ovpn* и выполнить импорт конфигурации (запросит логин\пароль).
 
 Pritunl имеет встроенную интеграцию с Let's encrypt. Для использования валидного сертификата необходимо в настройках Pritunl (Settings- Lets Encrypt Domain) указать *https://84-201-157-40.sslip.io/*. Сертификат сгенерируется на стороне сервиса sslip.io и привяжется к FQDN.
