@@ -38,6 +38,6 @@ Host someinternalhost
 Pritunl имеет встроенную интеграцию с Let's encrypt.
 Для использования валидного сертификата необходимо в настройках Pritunl "Lets Encrypt Domain" указать соответсвующий URL. Сертификат сгенерируется автоматически на стороне сервиса sslip.io и привяжется к FQDN.
 
-Lets Encrypt Domain *https://84-201-157-40.sslip.io/*
+Lets Encrypt Domain **https://84-201-157-40.sslip.io/**
 
 ```
