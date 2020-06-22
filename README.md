@@ -40,3 +40,15 @@ Pritunl имеет встроенную интеграцию с Let's encrypt.
 Сертификат сгенерируется автоматически на стороне сервиса sslip.io и привяжется к FQDN.
 ```
 Lets Encrypt Domain ``https://84-201-157-40.sslip.io/``
+
+<h1> 6. Основные сервисы Yandex Cloud
+
+```
+yc compute instance create \
+  --name reddit-app1 \
+  --hostname reddit-app1 \
+  --memory=4 \
+  --create-boot-disk image-folder-id=standard-images,image-family=ubuntu-1604-lts,size=10GB \
+  --network-interface subnet-name=default-ru-central1-a,nat-ip-version=ipv4 \
+  **--metadata-from-file user-data=./reddit.yaml**
+```
