@@ -41,7 +41,7 @@ Pritunl имеет встроенную интеграцию с Let's encrypt.
 ```
 Lets Encrypt Domain ``https://84-201-157-40.sslip.io/``
 
-<h1> 6. Основные сервисы Yandex Cloud
+<h1> 6. Основные сервисы Yandex Cloud </h1>
 
 ```
 yc compute instance create \
@@ -50,5 +50,5 @@ yc compute instance create \
   --memory=4 \
   --create-boot-disk image-folder-id=standard-images,image-family=ubuntu-1604-lts,size=10GB \
   --network-interface subnet-name=default-ru-central1-a,nat-ip-version=ipv4 \
-  --metadata-from-file user-data=./reddit.yaml
+  **--metadata-from-file user-data=./reddit.yaml**
 ```
