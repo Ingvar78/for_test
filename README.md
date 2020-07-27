@@ -1,4 +1,6 @@
 # for_test
+[![Build Status](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_infra.svg?branch=master)](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_infra)
+
 <h1> 8. Практика IaC с использованием Terraform  </h1>
 <h2> 8.1 Сборка образов VM при помощи Packer</h2>
 Изучена документация terraform 
