@@ -1,9 +1,11 @@
 # for_test
-1
+Ingvar78_infra
 [![Build Status](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_infra.svg?branch=master)](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_infra)
-2
+
+master
 [![Build Status](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_microservices.svg?branch=master)](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_microservices)
-3
+
+docker-2
 [![Build Status](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_microservices.svg?branch=docker-2)](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_microservices)
 
 
