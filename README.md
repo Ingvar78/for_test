@@ -10,7 +10,7 @@ https://travis-ci.com/github/Otus-DevOps-2020-05/Ingvar78_microservices/builds/1
 
 [![Build Status](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_infra.svg?branch=docker-2)](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_infra/tree/docker-2)
 
-[![Build Status](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_microservices.svg?branch=docker-2)](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_infra/tree/docker-2)
+[![Build Status](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_microservices.svg?branch=docker-2)](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_infra)
 
 
 <a href="https://github.com/Otus-DevOps-2020-05/Ingvar78_infra" alt="Activity">        <img src="https://img.shields.io/github/commit-activity/m/badges/shields" /></a>
