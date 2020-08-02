@@ -19,3 +19,13 @@ https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-
     <img src="https://raw.githubusercontent.com/badges/shields/master/frontend/images/logo.svg?sanitize=true"
         height="130">
 </p>
+
+<p align="center">
+    <a href="https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_infra/graphs/contributors" alt="Contributors">
+        <img src="https://img.shields.io/github/contributors/badges/shields" /></a>
+    <a href="https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_infra/pulse" alt="Activity">
+        <img src="https://img.shields.io/github/commit-activity/m/badges/shields" /></a>
+    <a href="https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_infra/compare/gh-pages...master">
+        <img src="https://img.shields.io/github/commits-since/badges/shields/gh-pages?label=commits%20to%20be%20deployed"
+            alt="commits to be deployed"></a>
+</p>
