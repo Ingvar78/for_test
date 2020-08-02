@@ -14,3 +14,27 @@
 
 https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 12
+
+
+[![CI Status](https://github.com/sebastianbergmann/phpunit/workflows/CI/badge.svg?branch=master)](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra)
+
+[![CI Status](https://github.com/sebastianbergmann/phpunit/workflows/CI/badge.svg?branch=play-travis)](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra)
+
+[![CI Status](https://github.com/sebastianbergmann/phpunit/workflows/CI/badge.svg?branch=cloud-bastion)](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra)
+
+[![CI Status](https://github.com/sebastianbergmann/phpunit/workflows/CI/badge.svg?branch=cloud-testapp)](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra)
+
+[![CI Status](https://github.com/sebastianbergmann/phpunit/workflows/CI/badge.svg?branch=packer-base)](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra)
+
+[![CI Status](https://github.com/sebastianbergmann/phpunit/workflows/CI/badge.svg?branch=terraform-1)](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra)
+
+[![CI Status](https://github.com/sebastianbergmann/phpunit/workflows/CI/badge.svg?branch=terraform-2)](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra)
+
+
+[![CI Status](https://github.com/sebastianbergmann/phpunit/workflows/CI/badge.svg?branch=ansible-1)](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra)
+
+[![CI Status](https://github.com/sebastianbergmann/phpunit/workflows/CI/badge.svg?branch=ansible-2)](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra)
+
+[![CI Status](https://github.com/sebastianbergmann/phpunit/workflows/CI/badge.svg?branch=ansible-3)](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra)
+
+[![CI Status](https://github.com/sebastianbergmann/phpunit/workflows/CI/badge.svg?branch=ansible-4)](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra)
