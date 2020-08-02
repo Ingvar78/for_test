@@ -16,9 +16,9 @@ https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-
 12
 
 
-[![CI Status](https://github.com/sebastianbergmann/phpunit/workflows/CI/badge.svg?branch=master)](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra/master)
+[![CI Status](https://github.com/sebastianbergmann/phpunit/workflows/CI/badge.svg?branch=master)](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra/tree/master)
 
-[![CI Status](https://github.com/sebastianbergmann/phpunit/workflows/CI/badge.svg?branch=play-travis)](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra)
+[![CI Status](https://github.com/sebastianbergmann/phpunit/workflows/CI/badge.svg?branch=play-travis)](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra/tree/play-travis)
 
 [![CI Status](https://github.com/sebastianbergmann/phpunit/workflows/CI/badge.svg?branch=cloud-bastion)](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra)
 
