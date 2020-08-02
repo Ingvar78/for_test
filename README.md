@@ -2,6 +2,9 @@
 Ingvar78_infra
 [![Build Status](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_infra.svg?branch=master)](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_infra)
 
+[![Build Status](https://img.shields.io/travis/Otus-DevOps-2020-05/Ingvar78_infra/master?label=Ingvar78_infra&style=plastic)](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_infra)
+
+
 master
 [![Build Status](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_microservices.svg?branch=master)](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_microservices)
 
