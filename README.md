@@ -1,17 +1,16 @@
 # for_test
+1
 [![Build Status](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_infra.svg?branch=master)](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_infra)
-
-
-https://travis-ci.com/github/Otus-DevOps-2020-05/Ingvar78_microservices/builds/178151186
-
+2
 [![Build Status](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_microservices.svg?branch=master)](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_microservices)
-
+3
 [![Build Status](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_microservices.svg?branch=docker-2)](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_microservices)
-
+4
 [![Build Status](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_infra.svg?branch=docker-2)](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_infra/tree/docker-2)
-
+5
 [![Build Status](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_microservices.svg?branch=docker-2)](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_infra)
 
+6
 
 <a href="https://github.com/Otus-DevOps-2020-05/Ingvar78_infra" alt="Activity">        <img src="https://img.shields.io/github/commit-activity/m/badges/shields" /></a>
 
