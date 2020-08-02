@@ -6,7 +6,12 @@ master
 [![Build Status](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_microservices.svg?branch=master)](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_microservices)
 
 docker-2
+
 [![Build Status](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_microservices.svg?branch=docker-2)](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_microservices)
+
+[![Build Status](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_microservices.svg?branch=docker-2)](https://travis-ci.com/Otus-DevOps-2020-05/Ingvar78_microservices)
+
+[![Generic badge](https://img.shields.io/badge/Ingvar78_infra-<STATUS>-red.svg)](https://shields.io/)
 
 
 <a href="https://github.com/Otus-DevOps-2020-05/Ingvar78_infra" alt="Activity">        <img src="https://img.shields.io/github/commit-activity/m/badges/shields" /></a>
