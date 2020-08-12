@@ -3,6 +3,20 @@ Ingvar78_infra
 
 [![Play-travis Status](https://img.shields.io/travis/Otus-DevOps-2020-05/Ingvar78_infra/play-travis?label=Play-travis&style=plastic)](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra/tree/play-travis)
 
+[![Cloud-bastion Status](https://img.shields.io/travis/Otus-DevOps-2020-05/Ingvar78_infra/cloud-bastion?label=Cloud-bastion&style=plastic)](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra/tree/cloud-bastion)
+[![Сloud-testapp Status](https://img.shields.io/travis/Otus-DevOps-2020-05/Ingvar78_infra/cloud-testapp?label=Сloud-testapp&style=plastic)](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra/tree/cloud-testapp)
+
+[![Packer-base Status](https://img.shields.io/travis/Otus-DevOps-2020-05/Ingvar78_infra/packer-base?label=Packer-base&style=plastic)](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra/tree/packer-base)
+
+[![Terraform-1 Status](https://img.shields.io/travis/Otus-DevOps-2020-05/Ingvar78_infra/terraform-1?label=Terraform-1&style=plastic)](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra/tree/terraform-1)
+[![Terraform-2 Status](https://img.shields.io/travis/Otus-DevOps-2020-05/Ingvar78_infra/terraform-2?label=Terraform-2&style=plastic)](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra/tree/terraform-2)
+
+
+[![Ansible-1 Status](https://img.shields.io/travis/Otus-DevOps-2020-05/Ingvar78_infra/ansible-1?label=Ansible-1&style=plastic)](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra/tree/ansible-1)
+[![Ansible-2 Status](https://img.shields.io/travis/Otus-DevOps-2020-05/Ingvar78_infra/ansible-2?label=Ansible-2&style=plastic)](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra/tree/ansible-2)
+[![Ansible-3 Status](https://img.shields.io/travis/Otus-DevOps-2020-05/Ingvar78_infra/ansible-3?label=Ansible-3&style=plastic)](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra/tree/ansible-3)
+[![Ansible-4 Status](https://img.shields.io/travis/Otus-DevOps-2020-05/Ingvar78_infra/ansible-4?label=Ansible-4&style=plastic)](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra/tree/ansible-4)
+
 
 [![Docker-4 Status](https://img.shields.io/travis/Otus-DevOps-2020-05/Ingvar78_microservices/docker-4?label=Docker-4&style=plastic)](https://github.com/Otus-DevOps-2020-05/Ingvar78_microservices/tree/docker-4)
 
