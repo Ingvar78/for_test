@@ -4,6 +4,8 @@ Ingvar78_infra
 hw11 Lecture 14
 
 В процессе сделано:
+ReadMe.md(https://github.com/Otus-DevOps-2020-05/Ingvar78_infra/tree/ansible-4#-%D0%BF%D1%80%D0%BE%D0%B3%D0%BE%D0%BD-%D1%80%D0%B0%D0%BD%D0%B5%D0%B5-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2-)
+
 - Установлен Vagrant и VirtualBox на локальной машине(linux - Centos 8).
 - Доработаны роли Ansible и выполнен провижининг.
 - Приложение установлено и работает на порту 9292
