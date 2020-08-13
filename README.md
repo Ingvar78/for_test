@@ -46,8 +46,8 @@ molecule verify -- запускает тест test_default.py
 <font color="#4E9A06">            &quot;location / { proxy_pass http://127.0.0.1:9292; }&quot;</font>
 <font color="#4E9A06">          ]</font>
 <font color="#4E9A06">        }</font>
+<font color="#4E9A06">      }</font>
 </pre>
-
 	
 Как запустить проект:
 
