@@ -2,6 +2,16 @@
 Ingvar78_infra
 
 
+<h1>14. Разработка и тестирование Ansible ролей и плейбуков </h1>
+
+<h2>14.1 Локальная разработка при помощи Vagrant, доработка ролей для провижининга в Vagrant </h2>
+
+<h2>14.2 Тестирование ролей при помощи Molecule и Testinfra </h2>
+
+<h2>14.3 Переключение сбора образов пакером на использование ролей </h2>
+
+<h2>14.4 Результат работы </h2>
+
 <pre><font color="#4E9A06">molecule converge</font>
 <font color="#4E9A06">--&gt; </font><font color="#06989A">Test matrix</font>
     
@@ -59,7 +69,10 @@ Ingvar78_infra
     
     PLAY RECAP *********************************************************************
     <font color="#C4A000">instance</font>                   : <font color="#4E9A06">ok=9   </font> <font color="#C4A000">changed=7   </font> unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
-    
+</pre>
+
+
+<pre><font color="#4E9A06">molecule converge</font>
 <font color="#4E9A06">iva@c8hard </font><font color="#CC0000">db (ansible-4 *=) </font><font color="#729FCF"><b>$</b></font><font color="#4E9A06"> molecule verify</font>
 <font color="#4E9A06">--&gt; </font><font color="#06989A">Test matrix</font>
     
@@ -80,6 +93,7 @@ Ingvar78_infra
     <font color="#4E9A06">============================== </font><font color="#8AE234"><b>3 passed</b></font><font color="#4E9A06"> in 3.79s ===============================</font>
 <font color="#4E9A06">Verifier completed successfully.</font>
 </pre>
+
 
 [![Play-travis Status](https://img.shields.io/travis/Otus-DevOps-2020-05/Ingvar78_infra/play-travis?label=Play-travis&style=plastic)](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra/tree/play-travis)
 
