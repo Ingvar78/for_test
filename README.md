@@ -7,34 +7,35 @@ hw11 Lecture 14
 - Установлен Vagrant и VirtualBox на локальной машине(linux - Centos 8).
 - Доработаны роли Ansible и выполнен провижининг.
 - Приложение установлено и работает на порту 9292
-создано и активировано виртуальное окружение: source venv/bin/activate
-Установлены фреймворк для тестирования Ansible-кода TestInfra и инструмент тетирования molecule.
-Создан тест в roles/db/molecule/default/tests/test_default.py:
+- сделано и активировано виртуальное окружение
+- Установлены фреймворк для тестирования Ansible-кода TestInfra и инструмент тетирования molecule.
+- Создан тест в roles/db/molecule/default/tests/test_default.py:
+
 def test_socket_listening(host):
 socket = host.socket('tcp://0.0.0.0:27017')
 assert socket.is_listening
 
-Изменен verifier в файле roles/db/molecule/default/molecule.yml (по умолчанию Ansible):
+- Изменен verifier в файле roles/db/molecule/default/molecule.yml (по умолчанию Ansible):
 
 ```
 verifier:
 #  name: ansible 
    name: testinfra  
 ```
-в файле roles/db/molecule/default/molecule.yml (по умолчанию Ansible)
 
-7) Пройден весь цикл тестирования для роли db.
+- Пройден цикл тестирования для роли db, пример вывода в ReadMe.md.
 
 molecule create
 molecule converge
 molecule verify -- запускает тест test_default.py
 
-Переписаны плейбуки packer_db.yml, packer_app.yml с использованием ролей db,app. 
-Изменены шаблоны для packer/app.json, packer/db.json. 
-Пересобраны образы packer. 
+- Переписаны плейбуки packer_db.yml, packer_app.yml с использованием ролей db,app. 
+- Изменены шаблоны для packer/app.json, packer/db.json. 
+- Пересобраны образы packer. 
 
 Задание со (*)
-Для настройки проксирования добавлет параметр в ansible.extra_vars в Vagrantfile:
+
+- Для настройки проксирования добавлет параметр в ansible.extra_vars в Vagrantfile:
 
 "nginx_sites" => {
 	"default" => [
@@ -44,9 +45,6 @@ molecule verify -- запускает тест test_default.py
 	
 Как запустить проект:
 
-Например, запустить команду X в директории Y
-Как проверить работоспособность:
-Например, перейти по ссылке http://localhost:8080
 
 
 ____________________________________________________________________________________________________________
