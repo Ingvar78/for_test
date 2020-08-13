@@ -33,6 +33,12 @@ molecule verify -- запускает тест test_default.py
 - Изменены шаблоны для packer/app.json, packer/db.json. 
 - Пересобраны образы packer. 
 
+```
+packer build -var-file=packer/variables.json packer/db.json
+packer build -var-file=packer/variables.json packer/app.json
+
+```
+
 Задание со (*)
 
 - Для настройки проксирования добавлет параметр в ansible.extra_vars в Vagrantfile:
@@ -64,7 +70,31 @@ ________________________________________________________________________________
 
 <h2>14.3 Переключение сбора образов пакером на использование ролей </h2>
 
-<h2>14.4 Результат работы </h2>
+<h2>14.4 Результат работы c  molecule</h2>
+
+<pre><font color="#4E9A06">iva@c8hard </font><font color="#CC0000">db (ansible-4 *=) </font><font color="#729FCF"><b>$</b></font><font color="#4E9A06"> molecule create</font>
+<font color="#4E9A06">--&gt; </font><font color="#06989A">Test matrix</font>
+    
+└── default
+    ├── dependency
+    ├── create
+    └── prepare
+    
+--&gt; <font color="#06989A">Scenario: &apos;default&apos;</font>
+--&gt; <font color="#06989A">Action: &apos;dependency&apos;</font>
+<font color="#C4A000">Skipping, missing the requirements file.</font>
+<font color="#C4A000">Skipping, missing the requirements file.</font>
+--&gt; <font color="#06989A">Scenario: &apos;default&apos;</font>
+--&gt; <font color="#06989A">Action: &apos;create&apos;</font>
+<font color="#C4A000">Skipping, instances already created.</font>
+--&gt; <font color="#06989A">Scenario: &apos;default&apos;</font>
+--&gt; <font color="#06989A">Action: &apos;prepare&apos;</font>
+<font color="#C4A000">Skipping, instances already prepared.</font>
+<font color="#4E9A06">iva@c8hard </font><font color="#CC0000">db (ansible-4 *=) </font><font color="#729FCF"><b>$</b></font><font color="#4E9A06"> molecule list</font>
+<font color="#4E9A06">Instance Name    Driver Name    Provisioner Name    Scenario Name    Created    Converged</font>
+<font color="#4E9A06">---------------  -------------  ------------------  ---------------  ---------  -----------</font>
+<font color="#4E9A06">instance         vagrant        ansible             default          true       true</font>
+</pre>
 
 <pre><font color="#4E9A06">molecule converge</font>
 <font color="#4E9A06">--&gt; </font><font color="#06989A">Test matrix</font>
@@ -125,8 +155,9 @@ ________________________________________________________________________________
     <font color="#C4A000">instance</font>                   : <font color="#4E9A06">ok=9   </font> <font color="#C4A000">changed=7   </font> unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
 </pre>
 
+<h3> Прогон ранее созданных тестов </h3>
 
-<pre><font color="#4E9A06">molecule converge</font>
+<pre>
 <font color="#4E9A06">iva@c8hard </font><font color="#CC0000">db (ansible-4 *=) </font><font color="#729FCF"><b>$</b></font><font color="#4E9A06"> molecule verify</font>
 <font color="#4E9A06">--&gt; </font><font color="#06989A">Test matrix</font>
     
