@@ -37,11 +37,17 @@ molecule verify -- запускает тест test_default.py
 
 - Для настройки проксирования добавлет параметр в ansible.extra_vars в Vagrantfile:
 
-"nginx_sites" => {
-	"default" => [
-	"listen 80",
-	"server_name 'reddit'",
-	"location / { proxy_pass http://127.0.0.1:9292; }"
+<pre><font color="#4E9A06">      ansible.extra_vars = {</font>
+<font color="#4E9A06">        &quot;deploy_user&quot; =&gt; &quot;ubuntu&quot;,</font>
+<font color="#4E9A06">        &quot;nginx_sites&quot; =&gt; {</font>
+<font color="#4E9A06">          &quot;default&quot; =&gt; [</font>
+<font color="#4E9A06">            &quot;listen 80&quot;,</font>
+<font color="#4E9A06">            &quot;server_name &apos;reddit&apos;&quot;,</font>
+<font color="#4E9A06">            &quot;location / { proxy_pass http://127.0.0.1:9292; }&quot;</font>
+<font color="#4E9A06">          ]</font>
+<font color="#4E9A06">        }</font>
+</pre>
+
 	
 Как запустить проект:
 
