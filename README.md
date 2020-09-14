@@ -3,6 +3,10 @@ Ingvar78_infra
 
 hw11 Lecture 14
 
+[![GitLab-CI-1 Status](https://img.shields.io/travis/Otus-DevOps-2020-05/Ingvar78_microservices/gitlab-ci-1?label=Gitlab-CI-1&style=plastic)](https://github.com/Otus-DevOps-2020-05/Ingvar78_microservices/tree/gitlab-ci-1)
+[![Monitoring-1 Status](https://img.shields.io/travis/Otus-DevOps-2020-05/Ingvar78_microservices/monitoring-1?label=Monitoring-1&style=plastic)](https://github.com/Otus-DevOps-2020-05/Ingvar78_microservices/tree/monitoring-1)
+
+
 В процессе сделано:
 [ReadMe.md](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra/tree/ansible-4#-%D0%BF%D1%80%D0%BE%D0%B3%D0%BE%D0%BD-%D1%80%D0%B0%D0%BD%D0%B5%D0%B5-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2-)
 
