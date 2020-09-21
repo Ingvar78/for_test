@@ -298,7 +298,7 @@ Business_Logic_Monitoring:
     • файлы дашбордов экспортированы и сохранены в директории monitoring/grafana/dashboards
     • Создан, настроен и запущен Alertmanager(создан конфиг с уведомлениями в slack, настроен prometheus(конфиг + добавлен alerts.yml))
 
-<h2> Список образов на [Dockerhub]( https://hub.docker.com/u/egerpro) </h2>
+[Список образов на Dockerhub]( https://hub.docker.com/u/egerpro)
 
 <pre><font color="#4E9A06">REPOSITORY                TAG                 IMAGE ID            CREATED             SIZE</font>
 <font color="#4E9A06">egerpro/prometheus        latest              852909dbba4d        58 minutes ago      112MB</font>
