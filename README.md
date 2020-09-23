@@ -11,6 +11,37 @@ hw11 Lecture 14
 В процессе сделано:
 [ReadMe.md](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra/tree/ansible-4#-%D0%BF%D1%80%D0%BE%D0%B3%D0%BE%D0%BD-%D1%80%D0%B0%D0%BD%D0%B5%D0%B5-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2-)
 
+[![Logging-1 Status](https://img.shields.io/travis/Otus-DevOps-2020-05/Ingvar78_microservices/logging-1?label=Logging-1&style=plastic)](https://github.com/Otus-DevOps-2020-05/Ingvar78_microservices/tree/logging-1)
+
+
+
+h1>26.Логирование и распределенная трассировка </h1>
+
+    • Подготовка окружения
+    • Логирование Docker-контейнеров
+    • Сбор неструктурированных логов
+    • Визуализация логов
+    • Сбор структурированных логов
+    • Распределенный трейсинг
+
+В процессе произведена:
+Подготовка окружения - скачивание новой ветки reddit, Созданы compose-файла для системы логирования, Dockerfile для Fluentd, конфигурации Fluentd, Собраны образы Fluentd и рабочего приложения.
+Изучен сбор структурированных и неструктурированных логов, работа с Kibana.
+Настроена отправка логов во Fluentd для сервиса ui, post.
+Изучена возможность разбора различных форматов логов
+Изучена работа с трейсами запросов в Zipkin
+
+9.6.* Траблшутинг UI-экспириенса (по желанию) - полностью не выполнено.
+
+
+docker-compose -f docker-compose-logging.yml -f docker-compose.yml up -d
+
+
+http://ip_logger:9292 - reddit;
+http://ip_logger:5601 -kibana;
+http://ip_logger:9411 - zipkin;
+
+
 - Установлен Vagrant и VirtualBox на локальной машине(linux - Centos 8).
 - Доработаны роли Ansible и выполнен провижининг.
 - Приложение установлено и работает на порту 9292
