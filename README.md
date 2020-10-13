@@ -9,7 +9,7 @@ hw11 Lecture 14
 [![Monitoring-2 Status](https://img.shields.io/travis/Otus-DevOps-2020-05/Ingvar78_microservices/monitoring-2?label=Monitoring-2&style=plastic)](https://github.com/Otus-DevOps-2020-05/Ingvar78_microservices/tree/monitoring-2)
 
 В процессе сделано:
-[ReadMe.md](https://github.com/Otus-DevOps-2020-05/Ingvar78_infra/tree/ansible-4#-%D0%BF%D1%80%D0%BE%D0%B3%D0%BE%D0%BD-%D1%80%D0%B0%D0%BD%D0%B5%D0%B5-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2-)
+[Helm](https://helm.sh/docs/chart_template_guide/#the-chart-template-developer-s-guide)
 
 [![Logging-1 Status](https://img.shields.io/travis/Otus-DevOps-2020-05/Ingvar78_microservices/logging-1?label=Logging-1&style=plastic)](https://github.com/Otus-DevOps-2020-05/Ingvar78_microservices/tree/logging-1)
 
